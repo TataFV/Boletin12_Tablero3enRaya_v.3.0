@@ -38,7 +38,8 @@ div > h2 {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     height: 30vh;
-    margin-top: -50px;
+    margin-top: -20px;
+    text-align: center;
 }
 
 p{
@@ -83,6 +84,10 @@ th,td {
 #tablero >div {
     border-top-style:none;
     border-left-style: none;
+}
+
+#tablero img {
+    margin: 0 auto 0 auto;
 }
 
 div.datos{ 
